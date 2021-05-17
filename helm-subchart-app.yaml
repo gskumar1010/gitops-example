@@ -3,7 +3,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: quarkus-subchart
-  namespace: argocd-helm
+  namespace: argocd
 spec:
   destination:
     namespace: argocd
